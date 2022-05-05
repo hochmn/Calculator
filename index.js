@@ -100,7 +100,27 @@ function log(a) {
 }
 log(5); */
 
-function cos(a) {
-  console.log(Math.cos(a));
+/* ### Sinus ###
+function sin(a) {
+  let aRadians = a * (Math.PI / 180);
+  let aSin = Math.sin(aRadians);
+  // let aDegrees = aRadians * (180 / Math.PI);
+  console.log(aSin);
 }
-cos(60);
+sin(91); */
+
+/* ### Cosinus ###
+function cos(a) {
+  let aRadians = a * (Math.PI / 180);
+  let aCos = Math.cos(aRadians);
+  console.log(aCos);
+}
+cos(60); */
+
+function tan(a) {
+  let aRadians = a * (Math.PI / 180);
+  let aTan = Math.tan(aRadians);
+  // let aDegrees = aRadians * (180 / Math.PI);
+  console.log(aTan);
+}
+tan(71);
