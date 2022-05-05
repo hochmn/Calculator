@@ -52,6 +52,12 @@ function n_taMocnina(a, n) {
 }
 n_taMocnina(2, 6); */
 
+/* ### Mocnina deseti ###
+function mocninaDeseti(n) {
+  console.log(10 ** n);
+}
+mocninaDeseti(5); */
+
 /* ### Druha odmocnina ###
 function druhaOdmocnina(a) {
   console.log(a ** (1 / 2));
@@ -117,10 +123,26 @@ function cos(a) {
 }
 cos(60); */
 
+/* ### Tangens ###
 function tan(a) {
   let aRadians = a * (Math.PI / 180);
   let aTan = Math.tan(aRadians);
   // let aDegrees = aRadians * (180 / Math.PI);
   console.log(aTan);
 }
-tan(71);
+tan(71); */
+
+/*function sign(a) {
+  a = toString(a);
+  if (a == "+")
+    console.log("+");
+  } else if (a == "-") {
+    console.log("-");
+  } else {
+    console.log("Zadej + nebo -");
+  }
+  sign("+");*/
+
+/* ### Zavorky ###
+console.log('(');
+console.log(')'); */
